@@ -1,13 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:provider/provider.dart';
 import 'package:text_widget/Home.dart';
-import 'package:text_widget/models/user.dart';
 import 'package:text_widget/Widget/backgroundimage.dart';
-import 'package:text_widget/provider/user_provider.dart';
 import 'package:text_widget/signIn.dart';
-import '../Widget/widgets.dart';
 
 void main() {
   runApp(myApp());
@@ -70,6 +66,8 @@ class _myAppStatefulState extends State<myAppStateful> {
               style: TextStyle(
                   color: Colors.red, fontWeight: FontWeight.w500, fontSize: 30),
             ),
+
+
           ),
           Container(
             alignment: Alignment.center,
@@ -80,6 +78,9 @@ class _myAppStatefulState extends State<myAppStateful> {
             ),
           ),
           Container(
+
+
+
             padding: EdgeInsets.all(10),
             child: TextField(
               controller: nameController,
@@ -91,6 +92,8 @@ class _myAppStatefulState extends State<myAppStateful> {
             ),
           ),
           Container(
+
+
             padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
             //  padding:    EdgeInsets.all(10),
             child: TextField(
