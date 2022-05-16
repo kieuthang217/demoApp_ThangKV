@@ -29,6 +29,10 @@ class myApp extends StatelessWidget {
         body: Stack(children: [
           BackGround(),
           myAppStateful(),
+          Container(),
+          Container(),
+          Container(),
+          Container(),
         ]),
       ),
     );
